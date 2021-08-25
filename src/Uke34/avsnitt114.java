@@ -1,3 +1,4 @@
+package Uke34;
 public class avsnitt114 {
     public static void main(String[] args) {
         /*

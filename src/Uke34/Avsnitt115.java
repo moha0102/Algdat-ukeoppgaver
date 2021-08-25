@@ -1,3 +1,4 @@
+package Uke34;
 import java.io.PrintStream;
 
 public class Avsnitt115 {
