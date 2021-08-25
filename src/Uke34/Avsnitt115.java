@@ -1,9 +1,8 @@
 package Uke34;
-import java.io.PrintStream;
 
 public class Avsnitt115 {
     public static void main(String[] args) {
-        int[] values = {};
+        int[] values = {2,3,4};
         //Om lengden er 1, vil vi få returnert 0;
         //Om lengden arrayet er tomt, vil vi få returnert Index 0 out of bounds for length 0
         System.out.println(maks(values));
