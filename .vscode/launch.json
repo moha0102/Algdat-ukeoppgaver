@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ForelesningTorsdag",
+            "request": "launch",
+            "mainClass": "Uke35.ForelesningTorsdag",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Avsnitt1110",
+            "request": "launch",
+            "mainClass": "Uke34.Avsnitt1110",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch Avsnitt112oppg1",
+            "request": "launch",
+            "mainClass": "Uke34.Avsnitt112oppg1",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch Avsnitt113",
+            "request": "launch",
+            "mainClass": "Uke34.Avsnitt113",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch Avsnitt115",
+            "request": "launch",
+            "mainClass": "Uke34.Avsnitt115",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch avsnitt114",
+            "request": "launch",
+            "mainClass": "Uke34.avsnitt114",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForelesningMandag",
+            "request": "launch",
+            "mainClass": "Uke35.ForelesningMandag",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForelesningTirsdag",
+            "request": "launch",
+            "mainClass": "Uke35.ForelesningTirsdag",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        },
+        {
+            "type": "java",
+            "name": "Launch nestMaks",
+            "request": "launch",
+            "mainClass": "Uke35.nestMaks",
+            "projectName": "UkeoppgaveUke01_414969ae"
+        }
+    ]
+}
