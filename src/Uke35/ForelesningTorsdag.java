@@ -20,6 +20,7 @@ public class ForelesningTorsdag {
         }
 
     }
+
     static Node playMatch(Node teamA, Node teamB) {
         char winner;
         if (teamA.value > teamB.value) {
@@ -50,7 +51,8 @@ public class ForelesningTorsdag {
         System.out.println("Vinner av semifinale:");
         semi_1.print();
         semi_2.print();
-
+        System.out.println("");
+        System.out.println("Vinner av finale:");
         winner.print();
 
     }
