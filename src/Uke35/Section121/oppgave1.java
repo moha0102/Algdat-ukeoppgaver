@@ -2,7 +2,7 @@ package Uke35.Section121;
 
 public class oppgave1 {
     public static void main(String[] args) {
-        int[] values = {2,5,4,6,7,3,1,9m5};
+        int[] values = {2,5,4,6,7,3,1,95};
         System.out.println(values[kjorMin(values)]);
     }
 

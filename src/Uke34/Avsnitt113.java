@@ -1,6 +1,5 @@
 package Uke34;
 import javax.swing.*;
-import java.util.Arrays;
 
 public class Avsnitt113 {
     /* Oppgave 5 Avsnitt 1.1.3

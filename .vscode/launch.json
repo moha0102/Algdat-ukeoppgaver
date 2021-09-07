@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Binærtsortering",
+            "request": "launch",
+            "mainClass": "Uke36.ForelesningTirsdag.Binærtsortering.Binærtsortering",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Binærtsortering",
+            "request": "launch",
+            "mainClass": "Uke36.ForelesningTirsdag.Binærtsortering",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bubblesort",
+            "request": "launch",
+            "mainClass": "Uke36.ForelesningTirsdag.Bubblesort",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch oppgaver",
+            "request": "launch",
+            "mainClass": "Uke35.Section124.oppgaver",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch oppgave1",
+            "request": "launch",
+            "mainClass": "Uke35.Section123.oppgave1",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch oppgave1",
+            "request": "launch",
+            "mainClass": "Uke35.Section122.oppgave1",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch oppgave1",
+            "request": "launch",
+            "mainClass": "Uke35.Section121.oppgave1",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
             "name": "Launch ForelesningTorsdag",
             "request": "launch",
             "mainClass": "Uke35.ForelesningTorsdag",

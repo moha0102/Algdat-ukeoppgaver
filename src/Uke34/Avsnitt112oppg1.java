@@ -10,12 +10,12 @@ public class Avsnitt112oppg1 {
 
     static int min(int[] values) {
         int minValue = values[0];
-        int pos = 0;
+        //int pos = 0;
 
         for (int i = 1; i < values.length; i++) {
             if (minValue > values[i]) {
                 minValue = values[i];
-                pos = i;
+                //int pos = 0;
             }
         }
         return minValue;
