@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "Uke42.ForelesningMandag.BinaryTree",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircularBuffer",
+            "request": "launch",
+            "mainClass": "Uke41.ForelesningMandag.CircularBuffer",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch circularBuffer",
+            "request": "launch",
+            "mainClass": "Uke41.ForelesningMandag.circularBuffer",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch recursiveQuicksort",
+            "request": "launch",
+            "mainClass": "Uke38.ForelesningTorsdag.recursiveQuicksort",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch towerOfHanoy",
+            "request": "launch",
+            "mainClass": "Uke38.ForelesningTirsdag.towerOfHanoy",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecursivePermutation",
+            "request": "launch",
+            "mainClass": "Uke38.ForelesningMandag.RecursivePermutation",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "Uke38.ForelesningMandag.BinarySearch",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recursion",
+            "request": "launch",
+            "mainClass": "Uke38.ForelesningMandag.Recursion",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch genericsSort",
+            "request": "launch",
+            "mainClass": "Uke37.ForelesningTorsdag.genericsSort",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch genericSort",
+            "request": "launch",
+            "mainClass": "Uke37.ForelesningTorsdag.genericSort",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch genericsTest",
+            "request": "launch",
+            "mainClass": "Uke37.ForelesningTorsdag.genericsTest",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch genericsTest",
+            "request": "launch",
+            "mainClass": "Uke37.ForelesningMandag.genericsTest",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ternaryif",
+            "request": "launch",
+            "mainClass": "Uke37.ForelesningMandag.Ternaryif",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
             "name": "Launch Binærtsortering",
             "request": "launch",
             "mainClass": "Uke36.ForelesningTirsdag.Binærtsortering.Binærtsortering",
