@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fjernBakerst",
+            "request": "launch",
+            "mainClass": "Eksamen2017.fjernBakerst",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
+            "name": "Launch binaersok",
+            "request": "launch",
+            "mainClass": "Eksamen2017.binaersok",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
+            "name": "Launch snuOperasjon",
+            "request": "launch",
+            "mainClass": "Eksamen2017.snuOperasjon",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
+            "name": "Launch DobbeltLenketListe",
+            "request": "launch",
+            "mainClass": "Eksamen2016.DobbeltLenketListe",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
+            "name": "Launch LenketHashTabell",
+            "request": "launch",
+            "mainClass": "Eksamen2016.LenketHashTabell",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
+            "name": "Launch omorganisering",
+            "request": "launch",
+            "mainClass": "Eksamen2016.omorganisering",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
             "name": "Launch hashMap",
             "request": "launch",
             "mainClass": "Uke44.ForelesningTorsdag.hashMap",
