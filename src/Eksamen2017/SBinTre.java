@@ -82,7 +82,15 @@ public class SBinTre<T> {
     }
 
     private int dybde(Node<T> p) {
-        // Skal kodes
+        T verdi = p.verdi;
+        Node<T> q = rot;
+        int dybde = 0;
+        while (q != null) {
+            dybde++;
+            q = comp.compare(verdi, q.verdi) < 0 ? q.venstre : q.høyre;
+        }
+
+        return dybde;
     }
 
     public T[] nedersteNivå() {

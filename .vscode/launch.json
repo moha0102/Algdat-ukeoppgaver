@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch tostringMetode",
+            "request": "launch",
+            "mainClass": "EksamenV2015.tostringMetode",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
+            "name": "Launch LenketHashTabell",
+            "request": "launch",
+            "mainClass": "Eksamen2016.LenketHashTabell",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
             "name": "Launch fjernBakerst",
             "request": "launch",
             "mainClass": "Eksamen2017.fjernBakerst",
