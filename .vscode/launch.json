@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinaryTree",
+            "request": "launch",
+            "mainClass": "Uke42.ForelesningMandag.BinaryTree",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
+            "name": "Launch LenketKø",
+            "request": "launch",
+            "mainClass": "EksamenV2015.LenketKø",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
+            "name": "Launch TabellStakk",
+            "request": "launch",
+            "mainClass": "Eksamen2016.TabellStakk",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
+            "name": "Launch TabellStakk",
+            "request": "launch",
+            "mainClass": "EksamenV2015.TabellStakk",
+            "projectName": "Algdat-ukeoppgaver_7a3bbb99"
+        },
+        {
+            "type": "java",
             "name": "Launch tostringMetode",
             "request": "launch",
             "mainClass": "EksamenV2015.tostringMetode",

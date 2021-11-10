@@ -1,0 +1,89 @@
+Oppgave 1: Køer og stacker
+a. Beskriv kort hva de forskjellige følgende køene er:
+    i. Kø
+        En kø er en datastruktur hvor verdier legges 
+        inn bakert og tas ut fra starten, for eksempel en FIFO-kø
+
+    ii. FIFO-kø
+        En FIFØ-kø, eller first in first out kø, er en kø der verdier som
+        har vært lengst i køen er de som blir tatt ut først, altså verdier som 
+        har vært lengst i køen er de som blir tatt ut først.
+
+    iii. LIFO-kø
+        En Lifo-Kø, eller en last in first out kø er en kø der verdier som blir 
+        lagt inn til slutt i køen, er de verdiene som også blir tatt ut først.
+
+    iv. Stack
+        En datastruktur, der verdien som blir lagt inn 
+        til slutt er også verdien som blir tatt ut først. 
+        En stakk er en type LIFO-kø
+
+    v. Deque
+        En Deque, er en kø der man kan både legge inn i starten og slutten
+        men også ta ut i starten og slutten, også kjent som double ended queue
+
+    vi. Prioritetskø
+        En prioriteringskø er en kø der de som står i køen har en prioritet,
+        det vil si den som har høyest prioritet står først i køen og 
+        blir tatt ut først. Et eksempel på dette er en sykehuskø, der pasienten
+        som er mest kritisk skadet blir prioritert mer.
+
+b. Se på kildekoden i vedlegget. Beskriv kort hva de fire delene av kildekoden gjør
+    Del 1: 
+        Lager er character array av bokstavene som er oppgitt
+    Del 2: 
+        Lager en instansierer en Queue som en lenket liste som skal ta inn characters.
+        Deretter kjøres det en for each loop, som legger alle verdiene i character arrayet values_1 fra del 1
+        Deretter skrives ut første element i den lenkede listen Queue ved hjelp av system out print, 
+        i tillegg blir det fjernet fra queuen.
+        Det blir deretter kjørt en for loop som kjører så lenge i er mindre enn 4,
+        og den fjerner de første 4 elementene fra starten i queuen, 
+        da vil vi sitte igjen med bokstavene [E,T] i queuen, fordi først ble 'A' fjernet, så ble L,F,A,B fjernet.
+        Så printes det et linjeskift ved hjelp av System.out.println();
+        Så kjøres det en for each loop på char arrayet values_2, 
+        og dette legges inn i queue for alle elementene, nå har vi bokstavene [E,T,F,I,S,K] i queuen.
+        Så skrives det ut det første elementet som skal fjernes fra køen, samtidig som det fjernes.
+        Så kjøres det en while loop som kjører så lenge queuen ikke er tom, 
+        og den vil fjerne alle elementer fra queuen.
+        Til slutt printes det ut et linjeskift ved hjelp av System.out.println()
+    Del 3:
+        Starter med å instansiere en stakk av characters, deretter kjøres det en for each loop
+        som legger alle verdiene i values_1 fra del 1 i stacken. Verdien som blir lagt inn til slutt
+        vil havne på toppen, og verdien som blir lagt inn først vil havne på bunnen av stacken, dette er en LIFO kø.
+        Deretter skrives ut det elementet som først skal fjernes ved hjelp av system.out.print,
+        samtidig blir dette elementet fjernet fra stacken, da vil bokstavene [A,L,F,A,B,E] være igjen i stacken.
+        Så kjøres en for loop som kjører så lenge i er mindre enn 4, og her blir også de 4 siste verdiene 
+        fjernet fra stacken, altså verdiene som ble lagt inn aller sist, da har vi igjen bokstavene [A,L] i stacken.
+        Så printes det et linjeskift ved hjelp av System.out.println();
+        Så kjøres det en for each loop, som looper gjennom verdiene i 
+        char values_2, og legger dem inn i stacken, da har vi bokstavene [A,L,F,I,S,K] i stacken
+        Så skrives ut den øverste verdien i stacken, samtidig som den fjernes, da har vi [A,L,F,I,S] igjen.
+        Så kjøres en while loop som kjører så lenge stacken ikke er tom, og den vil fjerne alle elementene i stacken
+        før den slutter å kjøre. Til slutt printes det ut et linjeskift ved hjelp av System.out.println()
+
+Oppgave 2: Quicksort
+    I denne oppgaven skal du sortere et sett med verdier med Quicksort. 
+    I denne oppgaven bruker vi arrayet 
+    char[] values = {'B', 'C', 'K', 'A', 'F', 'L', 'T'};
+
+    a. Ta utgangspunkt arrayet:
+        i. Forklar hva partisjonering er.
+            Partisjonering er omorganisering og ordne / sortere en tabell i deler etter bestemte kriterier.
+
+        ii. Partisjoner arrayet over ved å bruke ‘K’ som skilleverdi.
+            Gjort i bok
+            
+        iii. Hvilken indeks vil skilleverdien ligge på etter partisjonering?
+            Skilleverdien vil ligge på indeks 4
+
+    b. Forklar hvordan quicksort fungerer
+        i. Beskriv, med ord, hvordan quicksort fungerer.
+
+        ii. Lag en tegning som stegvis viser hvordan quicksort sorterer arrayet over.
+
+    c. Algoritmeanalyse av quicksort
+        i. Vil du bruke iterasjon eller rekursjon for å implementere quicksort?
+            Jeg vil bruke rekusjon, fordi det krever en del sammenligninger, og dette kan gjøres
+            lett vet at metoden kaller på seg selv flere ganger, men endrer pekere til neste i rekka
+
+        ii. Hva slags kompleksitet har quicksort i gjennomsnittstilfellet? Forklar kort hvordan du kommer fremtil svaret ditt.
