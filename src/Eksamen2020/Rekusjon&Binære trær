@@ -1,0 +1,47 @@
+Oppgave 1: Rekursjon og binærtrær
+    1. Forklar hva en rekursiv funksjon er
+        1. Hvilke til krav stiller vi så en rekursiv funksjon skal virke etter hensikten?
+            Krav 1 sier at når funksjonen gjør et kall på seg selv, eller flere kall, skal hvert tilfelle være enklere en
+            enn tilfellet til kallet før, og det skal ikke skje kall på samme tilfelle flere ganger, slik at et problem
+            som allere er løst ikke kalles på igjen
+
+            Krav 2 sier at det skal være et basistilfelle. Dette er et tilfelle som gjør at funksjonen stopper å kalle på seg selv,
+            dette kan for eksempel være hvis i == array.length, så stopper funksjonen å kalle på seg selv.
+        2. Hva vil skje dersom disse kravene ikke fylles av funksjonen?
+            Det som vil skje hvis disse kravene ikke oppfylles er det vil bli stack overflow, det vil si at funksjonen kaller på seg selv altfor mange ganger,
+            uten et basistilfelle ville funksjonen gått uendelig mange ganger, og det er derfor man har stack overflow som sier at funksjonen har kalt på seg selv altfor mange ganger.
+        2. Skriv ut verdien på nodene i treet i vedlegget ved å traversere det
+            1. Preorden
+
+            2. Inorden 
+
+            3. Postorden
+
+            4. Nivå-orden
+
+
+        3. Hvordan regner man ut ID'en til hver node i binærtreet?
+            1. Skriv opp formelen for å regne ut ID til hver node.
+            Høyre: 2k+1
+            Venstre: 2k
+
+            2. Skriv opp ID'en til hver node.
+            
+            3. Hva brukes denne ID'en til?
+        
+        4. Forklar hvordan man traverserer treet
+            1. Preorden ved å bruke rekursjon eller iterasjon
+                For å kunne traversere treet trenger vi 2 metoder, en privat metode som 
+                gjør selve rekusjonen, og en offentlig metode som kaller på hjelpemetoden.
+                For preorden, så går vi så langt venstre i treet som mulig,
+                dette funker dersom p.venstre ikke er null, og tar ut alle verdiene på veien.
+                Dersom vi ikke kan gå til venstre, sjekker vi om p.høyre != null, og da går vi til høyre
+                Siden rot er første verdien i pre orden skriver vi først ut p.verdi i hjelpemetoden,
+                og deretter sjekker vi om p.venster != null og flytter p pekeren til p.venstre, slik at
+                nestegang funksjonen blir kalt på, så har p pekeren flyttet seg til venstre
+                Vi trenger også en if for å sjekke om p.høyre != null, denne vil flytte p pekeren til høyre,
+                den vil kun kjøre dersom p.venstre er lik null
+                I metoden som kaller hjelpemetoden har vi en if setgning som sjekker om treet er tomt, dette er basistilfellett
+                om den ikke er det, fortsetter vi å kalle på metoden.
+
+            2. Nivå-orden ved å bruke rekursjon eller iterasjon
