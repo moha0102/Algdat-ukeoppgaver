@@ -1,5 +1,7 @@
 package Eksamen2016;
 
+import java.util.Comparator;
+
 public class SBinTre<T> {
     private static final class Node<T> // en indre nodeklasse
     {

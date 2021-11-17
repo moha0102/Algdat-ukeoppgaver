@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DoubleListe",
+            "request": "launch",
+            "mainClass": "Eksamen2018.DoubleListe",
+            "projectName": "Algdat-ukeoppgaver_e873560b"
+        },
+        {
+            "type": "java",
             "name": "Launch BinaryTree",
             "request": "launch",
             "mainClass": "Uke42.ForelesningMandag.BinaryTree",
